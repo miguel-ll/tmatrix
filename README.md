@@ -16,7 +16,7 @@
 - `void scalar_mult(int num, int N, int A[][N], int B[][N])` - multiply a square matrix A of order N by a scalar num, and store the resulting matrix on B. B = num**A**.
 - `void sum_m(int N, int A[][N], int B[][N], int C[][N])` - sum a square matrix A of order N by B, and store the resulting matrix on C. C = **A**+**B**.
 - `void sub_m(int N, int A[][N], int B[][N], int C[][N])` - subtract a square matrix A of order N by B, and store the resulting matrix on C. C = **A**+**B**.
-- `void transpose(int N, int A[][N], int B[][N])` - transpose a square matrix A of order N into B. B = A<sup>T<sup>.
+- `void transpose(int N, int A[][N], int B[][N])` - transpose a square matrix A of order N into B. B = A<sup>T</sup>.
 - `int bareiss_det(int N, int A[][N])` - returns the determinant of a square matrix A of order N using the bareiss algorithm. **Note that the modified matrix A will not be in its echelon form. This goes for leibniz_det and gauss_elim as well.**
 - `int leibniz_det(int num, int A[][num])` - returns the determinant of a square matrix A of order num using the leibniz formula for determinants. **Note that this will only work if num is 2, 3, or 4. Otherwise, the function will return zero.** 
 - `double gauss_elim(int n, double a[][n])` - returns the determinant of a square matrix a of order n using gauss elimination.
