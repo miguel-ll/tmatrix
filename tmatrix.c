@@ -37,7 +37,7 @@ void multiply_m(int N, int A[][N], int B[][N], int C[][N]) {
     }
 }
 
-void scalar_mult(int num, int N, int A[][N], int B[][N]) {
+void scalar_m(int num, int N, int A[][N], int B[][N]) {
 	int i, j;
 	for(i = 0; i < N; i++)
 	    for(j = 0; j < N; j++)
