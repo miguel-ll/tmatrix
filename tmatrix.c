@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h>
+#include <mymath.h>
 #include <stdlib.h>
 #include <time.h>
 
@@ -128,7 +128,7 @@ double gauss_elim(int n, double a[][n]){
         //Partial Pivoting
         for(k=i+1;k<n;k++){
             //If diagonal element(absolute vallue) is smaller than any of the terms below it
-            if(fabs(a[i][i])<fabs(a[k][i])){
+            if(myfabs(a[i][i])<myfabs(a[k][i])){
                 //Swap the rows
                 for(j=0;j<n;j++){
                     double temp;
